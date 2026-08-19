@@ -6,7 +6,7 @@
   "aliases": [
     "CVE-2099-9322"
   ],
-  "summary": "Isolated test advisory 323 with no connections to other data",
+  "summary": "Isolated test advisory 9322 with no connections to other data",
   "details": "Synthetic advisory created for testing orphaned advisory scenarios. Not a real vulnerability. No SBOM or vulnerability in the system references this advisory.",
   "severity": [
     {

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-isol-3041-fake",
+  "modified": "2099-01-01T00:00:00Z",
+  "published": "2099-01-01T00:00:00Z",
+  "aliases": [
+    "CVE-2099-3041"
+  ],
+  "summary": "Isolated test advisory 3041 with no connections to other data",
+  "details": "Synthetic advisory created for testing orphaned advisory scenarios. Not a real vulnerability. No SBOM or vulnerability in the system references this advisory.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.test:package-3041"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://example.com/security/cve/CVE-2099-3041"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2099-01-01T00:00:00Z"
+  }
+}
